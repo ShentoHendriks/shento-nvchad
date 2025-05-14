@@ -1,6 +1,7 @@
 local options = {
   -- formatters
   formatters_by_ft = {
+    latex = { "latexindent" },
     lua = { "stylua" },
     css = { "prettierd" },
     html = { "prettierd" },

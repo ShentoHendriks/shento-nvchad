@@ -26,6 +26,7 @@ local servers = {
   volar = {},
   astro = {},
   tailwindcss = {},
+  texlab = {},
 }
 
 for name, opts in pairs(servers) do
