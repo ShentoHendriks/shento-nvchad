@@ -8,6 +8,9 @@ return {
   -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
+    dependencies = {
+      { "antosha417/nvim-lsp-file-operations", config = true },
+    },
     config = function()
       require "configs.lspconfig"
     end,
