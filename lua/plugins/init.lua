@@ -34,7 +34,6 @@ return {
         "tsx",
         "vue",
         "astro",
-        "latex",
       },
     },
   },
